@@ -1,0 +1,23 @@
+<nav>
+
+  <div class="image">
+    <img src=".\assets\images\logoplanoBlanco.png" alt="">
+    <h3>Jonathan Ibañez</h3>
+  </div>
+
+  <ul>
+    <li><a routerLink="/" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{ exact: true }">Inicio</a></li>
+    <li><a routerLink="/instalacion" routerLinkActive="router-link-active">Instalacion</a></li>
+    <li><a routerLink="/primero-pasos" routerLinkActive="router-link-active">Primero Pasos</a></li>
+    <li><a routerLink="/componentes" routerLinkActive="router-link-active">Componentes</a></li>
+    <li><a routerLink="/routes" routerLinkActive="router-link-active">Rutas</a></li>
+  </ul>
+<!--   <div class="idiomas">
+          <a routerLink="/" routerLinkActive="router-link-active" ></a>
+      <select name="locale" id="" (change)="changeLanguage($event)">
+        @for (locale of locales; track locale.value) {
+          <option [value]="locale.value">{{locale.name}}</option>
+        }
+      </select>
+  </div> -->
+</nav>
